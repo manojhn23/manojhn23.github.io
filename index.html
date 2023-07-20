@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calistoga&family=Crimson+Pro:wght@300&family=Philosopher:ital@1&family=Playfair+Display+SC:wght@900&family=Spectral:wght@300&family=Yantramanav:wght@300&family=Ysabeau+SC:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
+    <link rel="stylesheet" href="profile1.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Manoj kumar H N</h1>
+            <a href="/MyResume.pdf"><b>Resume</b></a>
+            <a href=" https://www.linkedin.com/in/manoj-kumar-h-n-08770a256/"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVR4nO2ZvUoDQRSFP1Hs/AFtBQt9A99BwV20FIV0lr6CjQTyID6DnSbqg9gp/iDopkpzZWEaw+zOzFrsHbkHThNuZs+Xu3dmk4DJZOqqI2ACTAHp2VNgDJSpECMF4aXBw5ROiHIXMSATBUEl4LsYkEpBUAn4OwZEMnFQfQcUA5lT2yfyApwAG85nwFuOHdlXtF0H1fbmVU/9Wo4gpae+yBHkHRgAm871jLzmCCKKHFTfAcVA5tSlnSk1j+4s2gKWgRVgD7gEPnIAqQ/Og8C114Eb7SA7MRcHloAHzSAp2gZmOYAsRtRcawa5AJ5d3RNw3lJ7qhXkOPH7965WkPuGNevfCOjwMNobyGfDmvXrPi1oBfnrumIgWEe8slsLmxFs1xL/eNiMiJ0jtG+TmhzUvwGpFISUgL9iQMYKgkrAtzEgpYKgEvAhkRoqCCsNviJRhfv3VMPMVO52iu6EyWTil34AFdRDhxtrT8cAAAAASUVORK5CYII="></a>
+            <a href="https://github.com/manojhn23"><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADtklEQVR4nO2ZSWgVQRCGP2OCS3CJYoy7uCtiDi6o8aAIikvQi4oGvCiiRo2E6FXJQdxQg4LgUTx4cyPuHhVRD0bcsyDu4IJrTNTnSEMNPOfNm1czb2YSJD8UDNNT1fV3V1dX90AH/l8UAEuBfUAt8Bj4CLSKmOdH0ma+WQL0pp2gC1AGXAJ+A5ZPMToXgFViK3Z0AyqBVwGcTycvga1A17hILAAaQiTglHpgfpQEzNTXREjAKcdl5kNFf+BOjCQskVtAYVgkhst0W20kT8WHrNBP0qjVxtIAFAUl0bWNwsnyCLNAKfpoO3DecsjhICnWy+B2CbspwA7gWRbOmd1+G1As1cGBDN/P05LoptgnBruEoSH0A7gKVACzgNFAvsgYebcROAN8BTYDnR22ihWLXxVilYpRTLf75mlHy+PbAYr+zUB5oouy7Ah9o0pCkaL/F5lmpUwZ1+MiJFKi9GGll5FLSiPLIyRSrvThfDoDBT5K8eoIiRxT+vAL6OlmYKnSwGdZkFFhPPBT6Uupm4H9SmWT56PGSaUve92Ua5XK02Igskzpy1k35afKuMyNgchYJRFT0KbgvULRfBMHhiiJvHNTblUomm86xUBkoiMKPor8cfjT4qZsZ4rZUu+MAPoAA+XZljiIJCNXtoYC6dtUFYOSBjYFn6TxJnAXaJRQeiPPtqwgehz2iIrvScvAzFIKnkjjNUmxWyRPm4p1khw37VGJGjnS11BggmTKRVI575a7MPsIkIKL0rhLqsuDwCngOlAns/FBpnN1xLPRIqPdBDwAbgPngCNyFtrvVaZUKzOFkW8yU2FjncuC9pKdbkbm+jBgpBlYE1KomZJ8j08SRua4GeuuTMFOuSFryXnS0yBfBqMxQL8tXucie504xZxT1soGlM7wW+AEsEFGaiTQK8l2XznHmOvQKikvvgYgYImYkiotSj1SXomcwd8qw65KbihtFMq75iyct5JkYaa015RGsU7apwJfMpAwpNOhJAQy9eKLJyo8DJhcbpcQFyU07J84z4ErwOJMHQDrsyRSrr3duBckLn0gx6MPK4Pc9VOBzwQSLkYSIe4fGwKQSADT/XZ0JI2xT3KxNlgTpx4YFYBITZCO8qTu8tNRZ5/2/di+7PMC8B/09BnLfqG1+yCMP8DDgIdtSOS+nBhDQQ+pNOMmciWKf/F5UmInYiCSAA5FfdExWc4HURGpA2YQE3IlBTc4fvj7xeskfWNrU0zXTSnIkbLldFL54gelorswyz2pAx0gIvwFLXDNiM6zHVAAAAAASUVORK5CYII="></a>
+        </nav>
+    </header>
+    <div class="slidebar">
+        <img src="pho1.jpg" alt="">
+        <a href="#item-1">About</a>
+        <a href="#item-2">Personal Info</a>
+        <a href="#item-3">Education</a>
+        <a href="#item-4">Projects</a>
+        <a href="#item-5">Skills</a>
+        <a href="#item-6">Internship</a>
+        <a href="#item-7">Hobbies</a>
+        <a href="#item-8">Contact</a>
+    </div>
+    <div class="detail">
+        <i
+            id="item-1">---------------------------------------------------------------------------------------------------------</i>
+        <hr>
+        <h4>About <span class="material-symbols-outlined">
+                grade
+            </span></h4>
+        <hr>
+        <p id="item-2">Seeking an entry-level engineering position where I can apply my strong analytical skills,
+            attention to
+            detail, and teamwork capabilities to contribute to the successful execution of engineering projects</p>
+        <hr>
+        <h4>Personal Info <span class="material-symbols-outlined">
+                person
+            </span></h4>
+        <hr>
+        <h5>Current Address:</h5>
+        <p>Maranahalli, 4th block, Jayanagra, Bangalore</p>
+        <h5>Permanent Address:</h5>
+        <p id="item-3">Near Honda Cirlce, Shivajinagara, Davanagere</p>
+        <hr>
+        <h4>Education <span class="material-symbols-outlined">
+                school
+            </span></h4>
+        <hr>
+        <h6>8.22 CGPA</h6>
+        <h5>University B D T College of Engineering ( 2019 - 2023 )</h5>
+        <p>B.E in Computer Science & Engineering, Davanagere</p>
+        <h6>83 %</h6>
+        <h5>D R M Science P U College ( 2017 - 2029 )</h5>
+        <p>P U in PCMB, Davanagere</p>
+        <h6>89.28 %</h6>
+        <h5>K V S English Medium High School ( 2017 - 2019 )</h5>
+        <p id="item-4">SSLC, Davanagere</p>
+        <hr>
+        <h4>Projects <span class="material-symbols-outlined">
+                engineering
+            </span></h4>
+        <hr>
+        <h5>PNEUMONIA DETECTION USING CNN</h5>
+        <ul>
+            <li>In this project, we developed a pneumonia detection model to detect the normal or
+                pneumonia as a result by using Python libraries</li>
+            <li>To achieve this, we used the chest x-ray images to train the model by using the VGG16
+                model and stored that model</li>
+            <li>For the output, we are using Flask framework for loading HTML, CSS frontend for loading
+                the images for testing the result.</li>
+        </ul>
+        <h5>BLOOD BANK MANAGEMENT SYSTEM</h5>
+        <ul>
+            <li> This is a DBMS mini project built using HTML & CSS for frontend and PHP & MYSQL for
+                backend.</li>
+            <li> The application which contains CRUD operations on the data of the database.</li>
+            <li> The admin has all authorities to make all operations for the database.</li>
+        </ul>
+        <h5>CATARACT EYE PREDICTION</h5>
+        <ul>
+            <li> In this project using machine learning (CNN) algorithm with theImage processing system
+                it will predict the eye as cataract or normal.</li>
+            <li id="item-5"> Using Sequential model and flask framework built fronted part.</li>
+        </ul>
+        <hr>
+        <h4>Skills <span class="material-symbols-outlined">
+                cognition
+            </span></h4>
+        <hr>
+        <p>Core Java</p>
+        <p>OOP's Concepts</p>
+        <p>C, Python</p>
+        <p id="item-6">HTML, CSS</p>
+        <hr>
+        <h4>Internship <span class="material-symbols-outlined">
+                priority
+            </span></h4>
+        <hr>
+        <h5>Machine Learning at Sumukha InfoTech [Aug 2022 – Oct 2022]</h5>
+        <p id="item-7">Worked on major project as cataract eye prediction using various ML algorithms</p>
+        <hr>
+        <h4>Hobbies <span class="material-symbols-outlined">
+                mindfulness
+            </span></h4>
+        <hr>
+        <ul>
+            <li> Traveling</li>
+            <li> Playing cricket</li>
+            <li> Solving puzzles</li>
+            <li> Drawing portraits</li>
+            <li id="item-8"> Photography</li>
+        </ul>
+        <hr>
+        <h4>Contact <span class="material-symbols-outlined">
+                info
+            </span></h4>
+        <hr>
+        <h3><span class="material-symbols-outlined">
+                mail
+            </span> Email : <a href="mailto:manojkumarhn2001@gmail.com">manojkumarhn2001@gmail.com</a></h3>
+        <h3> <span class="material-symbols-outlined">
+                call
+            </span> Call : <a href="tel:+916363893636">+91 6363893636</a></h3>
+        <h3><img class="logo"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVR4nO2ZvUoDQRSFP1Hs/AFtBQt9A99BwV20FIV0lr6CjQTyID6DnSbqg9gp/iDopkpzZWEaw+zOzFrsHbkHThNuZs+Xu3dmk4DJZOqqI2ACTAHp2VNgDJSpECMF4aXBw5ROiHIXMSATBUEl4LsYkEpBUAn4OwZEMnFQfQcUA5lT2yfyApwAG85nwFuOHdlXtF0H1fbmVU/9Wo4gpae+yBHkHRgAm871jLzmCCKKHFTfAcVA5tSlnSk1j+4s2gKWgRVgD7gEPnIAqQ/Og8C114Eb7SA7MRcHloAHzSAp2gZmOYAsRtRcawa5AJ5d3RNw3lJ7qhXkOPH7965WkPuGNevfCOjwMNobyGfDmvXrPi1oBfnrumIgWEe8slsLmxFs1xL/eNiMiJ0jtG+TmhzUvwGpFISUgL9iQMYKgkrAtzEgpYKgEvAhkRoqCCsNviJRhfv3VMPMVO52iu6EyWTil34AFdRDhxtrT8cAAAAASUVORK5CYII=">LinkedIn
+            : <a
+                href="https://www.linkedin.com/in/manoj-kumar-h-n-08770a256/">https://www.linkedin.com/in/manoj-kumar-h-n-08770a256/</a>
+        </h3>
+        <h3><img class="logo"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADtklEQVR4nO2ZSWgVQRCGP2OCS3CJYoy7uCtiDi6o8aAIikvQi4oGvCiiRo2E6FXJQdxQg4LgUTx4cyPuHhVRD0bcsyDu4IJrTNTnSEMNPOfNm1czb2YSJD8UDNNT1fV3V1dX90AH/l8UAEuBfUAt8Bj4CLSKmOdH0ma+WQL0pp2gC1AGXAJ+A5ZPMToXgFViK3Z0AyqBVwGcTycvga1A17hILAAaQiTglHpgfpQEzNTXREjAKcdl5kNFf+BOjCQskVtAYVgkhst0W20kT8WHrNBP0qjVxtIAFAUl0bWNwsnyCLNAKfpoO3DecsjhICnWy+B2CbspwA7gWRbOmd1+G1As1cGBDN/P05LoptgnBruEoSH0A7gKVACzgNFAvsgYebcROAN8BTYDnR22ihWLXxVilYpRTLf75mlHy+PbAYr+zUB5oouy7Ah9o0pCkaL/F5lmpUwZ1+MiJFKi9GGll5FLSiPLIyRSrvThfDoDBT5K8eoIiRxT+vAL6OlmYKnSwGdZkFFhPPBT6Uupm4H9SmWT56PGSaUve92Ua5XK02Igskzpy1k35afKuMyNgchYJRFT0KbgvULRfBMHhiiJvHNTblUomm86xUBkoiMKPor8cfjT4qZsZ4rZUu+MAPoAA+XZljiIJCNXtoYC6dtUFYOSBjYFn6TxJnAXaJRQeiPPtqwgehz2iIrvScvAzFIKnkjjNUmxWyRPm4p1khw37VGJGjnS11BggmTKRVI575a7MPsIkIKL0rhLqsuDwCngOlAns/FBpnN1xLPRIqPdBDwAbgPngCNyFtrvVaZUKzOFkW8yU2FjncuC9pKdbkbm+jBgpBlYE1KomZJ8j08SRua4GeuuTMFOuSFryXnS0yBfBqMxQL8tXucie504xZxT1soGlM7wW+AEsEFGaiTQK8l2XznHmOvQKikvvgYgYImYkiotSj1SXomcwd8qw65KbihtFMq75iyct5JkYaa015RGsU7apwJfMpAwpNOhJAQy9eKLJyo8DJhcbpcQFyU07J84z4ErwOJMHQDrsyRSrr3duBckLn0gx6MPK4Pc9VOBzwQSLkYSIe4fGwKQSADT/XZ0JI2xT3KxNlgTpx4YFYBITZCO8qTu8tNRZ5/2/di+7PMC8B/09BnLfqG1+yCMP8DDgIdtSOS+nBhDQQ+pNOMmciWKf/F5UmInYiCSAA5FfdExWc4HURGpA2YQE3IlBTc4fvj7xeskfWNrU0zXTSnIkbLldFL54gelorswyz2pAx0gIvwFLXDNiM6zHVAAAAAASUVORK5CYII=">GitHub
+            : <a href="https://github.com/manojhn23">https://github.com/manojhn23</a></h3>
+        <hr>
+    </div>
+</body>
+
+</html>
