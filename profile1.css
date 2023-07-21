@@ -5,6 +5,7 @@ body {
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+    box-sizing: border-box;
 }
 
 html {
@@ -56,6 +57,7 @@ nav a {
     margin: 2%;
     margin-top: 6%;
     border-radius: 10%;
+    box-sizing: border-box;
 }
 
 .detail {
@@ -64,6 +66,7 @@ nav a {
     /* margin-top: 10%; */
     margin: 3%;
     height: fit-content;
+    box-sizing: border-box;
 
 }
 
@@ -146,7 +149,7 @@ h3:hover {
 
     .detail {
         /* margin-left: 25%; */
-        width: 65%;
+        width: 57%;
         float: right;
         margin-right: 1%;
     }
@@ -160,5 +163,9 @@ h3:hover {
         height: 80%;
         width: 80%;
         margin-bottom: 30%;
+        margin-top: 30%;
+    }
+    .slidebar a{
+        margin-bottom: 15%;
     }
 }
