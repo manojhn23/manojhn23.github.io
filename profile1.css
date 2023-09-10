@@ -48,7 +48,7 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 28%;
-    height: 38%;
+    height: auto;
     background-color: rgb(253, 248, 241);
     align-items: center;
     justify-content: center;
